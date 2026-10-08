@@ -398,6 +398,7 @@ tr:hover td {
 /* ---------- CONTACTO: formulario con Flexbox ---------- */
 .contacto-fila {
     display: flex;
+    align-items: flex-start;
     gap: 40px;
     flex-wrap: wrap;
 }
