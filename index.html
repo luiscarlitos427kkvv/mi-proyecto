@@ -1,0 +1,417 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRIVERS &amp; TRAVELS | Transportes terrestres y marítimos</title>
+
+    <!-- Conectamos la hoja de estilos del proyecto -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- =========================================================
+         ENCABEZADO: logo del negocio + menú de navegación
+         ========================================================= -->
+    <header class="encabezado">
+
+        <!-- Logo / nombre del negocio -->
+        <div class="logo">
+            <span class="logo-nombre">DRIVERS &amp; TRAVELS</span>
+            <span class="logo-lema">Transportes terrestres y marítimos</span>
+        </div>
+
+        <!-- Menú de navegación: lista con los 6 enlaces pedidos -->
+        <nav>
+            <ul class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!-- =========================================================
+         HERO: sección principal con dos columnas (Flexbox)
+         ========================================================= -->
+    <section class="hero contenido" id="inicio">
+
+        <!-- Columna izquierda: textos -->
+        <div class="hero-texto">
+            <p class="hero-etiqueta">Viajeros y turistas</p>
+            <h1>Viaja feliz, cómodo y seguro</h1>
+            <p class="hero-slogan">Lo demás lo hacemos nosotros.</p>
+            <p class="hero-descripcion">
+                Somos una plataforma de transporte para resolver las necesidades de los
+                habitantes de Medellín y de turistas que quieren vivir una experiencia
+                agradable en sus traslados, ya sea en un solo día o en unas pocas horas.
+            </p>
+            <div class="hero-botones">
+                <a class="boton boton-primario" href="#contacto">Reserva ahora</a>
+                <a class="boton boton-secundario" href="#productos">Ver servicios</a>
+            </div>
+        </div>
+
+        <!-- Columna derecha: imagen -->
+        <div class="hero-imagen">
+            <img src="img/img5.jpeg" alt="Bote iluminado navegando de noche con luces reflejadas en el agua">
+        </div>
+
+    </section>
+
+    <!-- =========================================================
+         NOSOTROS: quiénes somos, qué hacemos, a quién ayudamos
+         ========================================================= -->
+    <section class="seccion" id="nosotros">
+        <h2 class="seccion-titulo">Nosotros</h2>
+        <p class="seccion-subtitulo">Tu aliado de confianza para moverte por la ciudad y sus pueblos</p>
+
+        <div class="nosotros-fila contenido">
+
+            <!-- Imagen de la sección -->
+            <div class="nosotros-imagen">
+                <img src="img/img8.jpeg" alt="Letras de colores que dicen Guatapé junto al lago">
+            </div>
+
+            <!-- Texto de la sección -->
+            <div class="nosotros-texto">
+                <h3>¿Quiénes somos?</h3>
+                <p>
+                    Somos <strong>DRIVERS &amp; TRAVELS</strong>, una empresa de transportes
+                    terrestres y marítimos con sede en Medellín. Trabajamos con vehículos
+                    propios y con botes con tripulación para llevar a personas, familias,
+                    grupos y agencias de turismo a cualquier destino.
+                </p>
+
+                <h3>¿Qué hacemos?</h3>
+                <p>
+                    Alquilamos vehículos con conductor, organizamos paseos en bote y
+                    conseguimos transporte de pasajeros, tanto dentro de la ciudad como
+                    en rutas hacia los pueblos antioqueños.
+                </p>
+
+                <h3>¿A quién ayudamos?</h3>
+                <ul>
+                    <li>Viajeros y turistas que quieren explorar Medellín y sus alrededores.</li>
+                    <li>Familias y parejas que buscan un transporte cómodo y seguro.</li>
+                    <li>Grupos pequeños o grandes que necesitan moverse juntos.</li>
+                    <li>Agencias de turismo que necesitan un aliado de confianza.</li>
+                    <li>Empresas que requieren transporte privado.</li>
+                </ul>
+
+                <h3>¿Qué nos diferencia?</h3>
+                <p>
+                    Nos diferencia la combinación de rutas terrestres y marítimas, los
+                    conductores verificados, la puntualidad y un trato cercano que hace
+                    que tu viaje sea tranquilo de principio a fin.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =========================================================
+         PRODUCTOS: 6 tarjetas con imagen, nombre, descripción,
+         precio y botón (Flexbox con flex-wrap y gap)
+         ========================================================= -->
+    <section class="seccion" id="productos">
+        <h2 class="seccion-titulo">Nuestros productos</h2>
+        <p class="seccion-subtitulo">Todos los servicios que ofrecemos para tu viaje</p>
+
+        <div class="productos-contenedor contenido">
+
+            <!-- Producto 1 -->
+            <article class="producto">
+                <img src="img/img11.jpeg" alt="Carro Hyundai azul estacionado, disponible para alquiler con conductor">
+                <div class="producto-info">
+                    <h3>Alquiler de vehículo con conductor</h3>
+                    <p>Un carro cómodo para tus traslados, con conductor profesional y rutas a la medida.</p>
+                    <span class="producto-precio">Desde $90.000 COP</span>
+                    <a class="boton boton-primario" href="#contacto">Reservar</a>
+                </div>
+            </article>
+
+            <!-- Producto 2 -->
+            <article class="producto">
+                <img src="img/img13.jpeg" alt="Yate blanco y bote pequeño iluminados durante la noche">
+                <div class="producto-info">
+                    <h3>Alquiler de botes con tripulación</h3>
+                    <p>Paseos marítimos nocturnos con capitán y trolling, ideales para grupos de amigos, parejas y turistas.</p>
+                    <span class="producto-precio">Desde $420.000 COP</span>
+                    <a class="boton boton-primario" href="#contacto">Reservar</a>
+                </div>
+            </article>
+
+            <!-- Producto 3 -->
+            <article class="producto">
+                <img src="img/img6.jpeg" alt="Grupo de personas junto a una van blanca durante un traslado nocturno">
+                <div class="producto-info">
+                    <h3>Transporte de pasajeros</h3>
+                    <p>Desde una persona hasta grandes grupos, con vans y buses para todos los tamaños.</p>
+                    <span class="producto-precio">Desde $35.000 COP por persona</span>
+                    <a class="boton boton-primario" href="#contacto">Reservar</a>
+                </div>
+            </article>
+
+            <!-- Producto 4 -->
+            <article class="producto">
+                <img src="img/img16.jpeg" alt="Cable car sobre el río en un sitio turístico">
+                <div class="producto-info">
+                    <h3>Contacto con agencias de turismo</h3>
+                    <p>Conectamos tu agencia con transporte terrestre y marítimo de calidad.</p>
+                    <span class="producto-precio">Coordinación sin costo</span>
+                    <a class="boton boton-primario" href="#contacto">Contactar</a>
+                </div>
+            </article>
+
+            <!-- Producto 5 -->
+            <article class="producto">
+                <img src="img/img15.jpeg" alt="Catedral de una ciudad colombiana con cielo azul">
+                <div class="producto-info">
+                    <h3>Transporte privado en la ciudad</h3>
+                    <p>Rutas y sitios de Medellín a tu medida, con conductor privado y flexible.</p>
+                    <span class="producto-precio">Desde $60.000 COP</span>
+                    <a class="boton boton-primario" href="#contacto">Reservar</a>
+                </div>
+            </article>
+
+            <!-- Producto 6 -->
+            <article class="producto">
+                <img src="img/img12.jpeg" alt="Carro plateado estacionado con la roca de El Peñol al fondo">
+                <div class="producto-info">
+                    <h3>Transporte privado a pueblos</h3>
+                    <p>Viaja a Guatapé, Santa Elena y otros pueblos antioqueños con comodidad.</p>
+                    <span class="producto-precio">Desde $180.000 COP</span>
+                    <a class="boton boton-primario" href="#contacto">Reservar</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- =========================================================
+         SERVICIOS / BENEFICIOS: 3 beneficios con imagen y botón
+         ========================================================= -->
+    <section class="seccion" id="servicios">
+        <h2 class="seccion-titulo">Beneficios y servicios</h2>
+        <p class="seccion-subtitulo">Por qué los viajeros nos eligen</p>
+
+        <div class="servicios-contenedor contenido">
+
+            <!-- Beneficio 1 -->
+            <article class="servicio">
+                <img src="img/img7.jpeg" alt="Carro plateado con las luces encendidas de noche">
+                <h3>Seguridad y confianza</h3>
+                <p>Conductores verificados, vehículos revisados y seguros para cada viaje.</p>
+                <a class="boton boton-secundario" href="#contacto">Conócenos</a>
+            </article>
+
+            <!-- Beneficio 2 -->
+            <article class="servicio">
+                <img src="img/img2.jpeg" alt="Carro Hyundai azul visto de frente, listo para viajar">
+                <h3>Comodidad y puntualidad</h3>
+                <p>Carros y botes limpios, y te recogemos a tiempo. Tú solo disfruta el trayecto.</p>
+                <a class="boton boton-secundario" href="#contacto">Reservar</a>
+            </article>
+
+            <!-- Beneficio 3 -->
+            <article class="servicio">
+                <img src="img/img14.jpeg" alt="Roca de El Peñol vista desde el agua entre árboles verdes">
+                <h3>Rutas y experiencias</h3>
+                <p>Te llevamos a los destinos más turísticos de Antioquia, por tierra y por mar.</p>
+                <a class="boton boton-secundario" href="#contacto">Explorar</a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- =========================================================
+         TABLA: planes y tarifas (thead, tbody, tr, th, td)
+         ========================================================= -->
+    <section class="seccion" id="tarifas">
+        <h2 class="seccion-titulo">Planes y tarifas</h2>
+        <p class="seccion-subtitulo">Paquetes pensados para cada tipo de viaje</p>
+
+        <div class="tabla-contenedor contenido">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plan</th>
+                        <th>Tipo de transporte</th>
+                        <th>Duración</th>
+                        <th>Precio desde</th>
+                        <th>Ideal para</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Movilidad Urbana</td>
+                        <td>Terrestre</td>
+                        <td>1 a 8 horas</td>
+                        <td>$60.000 COP</td>
+                        <td>Personas y familias</td>
+                    </tr>
+                    <tr>
+                        <td>Ruta de Pueblos</td>
+                        <td>Terrestre</td>
+                        <td>1 día completo</td>
+                        <td>$180.000 COP</td>
+                        <td>Turistas y grupos</td>
+                    </tr>
+                    <tr>
+                        <td>Alquiler con Conductor</td>
+                        <td>Terrestre</td>
+                        <td>1 a 12 horas</td>
+                        <td>$90.000 COP</td>
+                        <td>Viajeros con equipaje</td>
+                    </tr>
+                    <tr>
+                        <td>Paseo Marítimo</td>
+                        <td>Marítimo</td>
+                        <td>2 a 6 horas</td>
+                        <td>$420.000 COP</td>
+                        <td>Grupos y turistas</td>
+                    </tr>
+                    <tr>
+                        <td>Grupos y Empresas</td>
+                        <td>Terrestre</td>
+                        <td>1 a 12 horas</td>
+                        <td>$35.000 COP / persona</td>
+                        <td>Grandes grupos</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- =========================================================
+         GALERÍA: imágenes con atributo alt (Flexbox)
+         ========================================================= -->
+    <section class="seccion" id="galeria">
+        <h2 class="seccion-titulo">Galería</h2>
+        <p class="seccion-subtitulo">Un vistazo a nuestros vehículos, botes y rutas</p>
+
+        <div class="galeria-contenedor contenido">
+
+            <div class="galeria-item">
+                <img src="img/img2.jpeg" alt="Carro Hyundai azul estacionado en la calle">
+            </div>
+            <div class="galeria-item">
+                <img src="img/img8.jpeg" alt="Letras decorativas de Guatapé junto al lago">
+            </div>
+            <div class="galeria-item">
+                <img src="img/img10.jpeg" alt="Personas viajando dentro de un bote nocturno">
+            </div>
+            <div class="galeria-item">
+                <img src="img/img12.jpeg" alt="Carro plateado con la piedra del Peñol al fondo">
+            </div>
+            <div class="galeria-item">
+                <img src="img/img13.jpeg" alt="Bote y yate blancos iluminados en la noche">
+            </div>
+            <div class="galeria-item">
+                <img src="img/img14.jpeg" alt="Roca de El Peñol rodeada de vegetación desde el agua">
+            </div>
+            <div class="galeria-item">
+                <img src="img/img15.jpeg" alt="Catedral de estilo gótico con dos torres altas">
+            </div>
+            <div class="galeria-item">
+                <img src="img/img16.jpeg" alt="Teleférico cruzando un río junto a montañas verdes">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- =========================================================
+         CONTACTO: formulario con label, input, select, textarea
+         ========================================================= -->
+    <section class="seccion" id="contacto">
+        <h2 class="seccion-titulo">Contáctanos</h2>
+        <p class="seccion-subtitulo">Estamos listos para ayudarte a planear tu viaje</p>
+
+        <div class="contacto-fila contenido">
+
+            <!-- Datos de contacto -->
+            <div class="contacto-info">
+                <h3>DRIVERS &amp; TRAVELS</h3>
+                <p>Viaja feliz, cómodo y seguro. Lo demás lo hacemos nosotros.</p>
+                <p><strong>Ciudad:</strong> Medellín</p>
+                <p><strong>Teléfono:</strong> <a href="tel:+573004241087">300 4241087</a></p>
+                <p><strong>Correo:</strong> <a href="mailto:luisk427@travelswebs.com">luisk427@travelswebs.com</a></p>
+                <p><strong>Instagram:</strong> <a href="https://www.instagram.com/carlosjimenez27" target="_blank">@carlosjimenez27</a></p>
+            </div>
+
+            <!-- Formulario -->
+            <form class="formulario">
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre">
+                </div>
+                <div class="campo">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" name="correo">
+                </div>
+                <div class="campo">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="campo">
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" id="ciudad" name="ciudad">
+                </div>
+                <div class="campo">
+                    <label for="servicio">Servicio de interés</label>
+                    <select id="servicio" name="servicio">
+                        <option value="">Selecciona un servicio</option>
+                        <option>Alquiler de vehículo con conductor</option>
+                        <option>Alquiler de botes con tripulación</option>
+                        <option>Transporte de pasajeros</option>
+                        <option>Contacto con agencias de turismo</option>
+                        <option>Transporte privado en la ciudad</option>
+                        <option>Transporte privado a pueblos</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+
+        </div>
+    </section>
+
+    <!-- =========================================================
+         PIE DE PÁGINA
+         ========================================================= -->
+    <footer class="pie-pagina">
+        <div class="pie-info contenido">
+
+            <div class="pie-columna">
+                <h3>DRIVERS &amp; TRAVELS</h3>
+                <p>Viaja feliz, cómodo y seguro. Lo demás lo hacemos nosotros.</p>
+            </div>
+
+            <div class="pie-columna">
+                <h3>Contacto</h3>
+                <p>Medellín</p>
+                <p><a href="tel:+573004241087">300 4241087</a></p>
+                <p><a href="mailto:luisk427@travelswebs.com">luisk427@travelswebs.com</a></p>
+            </div>
+
+            <div class="pie-columna">
+                <h3>Redes</h3>
+                <p><a href="https://www.instagram.com/carlosjimenez27" target="_blank">Instagram: @carlosjimenez27</a></p>
+            </div>
+
+        </div>
+
+        <p class="pie-derechos contenido">&copy; 2026 luisk427@travelswebs.com - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
